@@ -23,8 +23,8 @@ jobs:
              - name: Test file Exists
                run: grep -i "dragon" dragon.txt
 
-      deploy_job_3:
-          runs-on: ubuntu-latest
+    deploy_job_3:
+         runs-on: ubuntu-latest
           steps:
               - name: Read files
                 run: cat dragon.txt
